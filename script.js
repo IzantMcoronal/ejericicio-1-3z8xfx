@@ -30,46 +30,46 @@ function onLoad(){
 function createUsers (){
 
   var persona1 = new Object();
- persona1.nombre = '';
- persona1.country = '';
- persona1.money = 0;
- persona1.premiumAccount = '';
+ persona1.nombre = 'Paco';
+ persona1.country = 'spain';
+ persona1.money = 199;
+ persona1.premiumAccount = 'true';
 
   var persona2 = new Object();
- persona2.nombre = '';
- persona2.country = '';
+ persona2.nombre = 'Anthuan';
+ persona2.country = 'france';
  persona2.money = 0;
- persona2.premiumAccount = '';
+ persona2.premiumAccount = 'false';
 
   var persona3 = new Object();
- persona3.nombre = '';
- persona3.country = '';
- persona3.money = 0;
- persona3.premiumAccount = '';
+ persona3.nombre = 'Javier';
+ persona3.country = 'spain';
+ persona3.money = 537;
+ persona3.premiumAccount = 'false';
 
   var persona4 = new Object();
- persona4.nombre = '';
- persona4.country = '';
- persona4.money = 0;
- persona4.premiumAccount = '';
+ persona4.nombre = 'Anthoni';
+ persona4.country = 'italy';
+ persona4.money = 1004;
+ persona4.premiumAccount = 'true';
 
   var persona5 = new Object();
- persona5.nombre = '';
- persona5.country = '';
- persona5.money = 0;
- persona5.premiumAccount = '';
+ persona5.nombre = 'Curro';
+ persona5.country = 'spain';
+ persona5.money = 250;
+ persona5.premiumAccount = 'false';
 
   var persona6 = new Object();
- persona6.nombre = '';
- persona6.country = '';
- persona6.money = 0;
- persona6.premiumAccount = '';
+ persona6.nombre = 'Kerry';
+ persona6.country = 'ireland';
+ persona6.money = 799;
+ persona6.premiumAccount = 'true';
 
   var persona7 = new Object();
- persona7.nombre = '';
- persona7.country = '';
- persona7.money = 0;
- persona7.premiumAccount = '';
+ persona7.nombre = 'Julio';
+ persona7.country = 'spain';
+ persona7.money = 3345;
+ persona7.premiumAccount = 'false';
 
  users = [persona1, persona2, persona1, persona3, persona4, persona5, persona6, persona7]
 }
