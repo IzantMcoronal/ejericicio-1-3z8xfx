@@ -19,11 +19,14 @@
 window.addEventListener('load',onLoad);
 
 var users
+var usersFilters
 
 function onLoad(){
 
   createUsers();
   console.log(users)
+
+  filterUsers();
 
 
 }
@@ -73,4 +76,8 @@ function createUsers (){
  persona7.premiumAccount = 'false';
 
  users = [persona1, persona2, persona1, persona3, persona4, persona5, persona6, persona7]
+}
+
+function filterUsers (){
+
 }
