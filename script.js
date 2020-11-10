@@ -24,7 +24,7 @@ function onLoad(){
   console.log('hi')
 
   createUsers();
-  console.log(createUsers)
+  console.log(users)
 }
 
 function createUsers (){
@@ -71,5 +71,5 @@ function createUsers (){
  persona7.money = 0;
  persona7.premiumAccount = '';
 
- Users = [persona1, persona2, persona1, persona3, persona4, persona5, persona6, persona7]
+ users = [persona1, persona2, persona1, persona3, persona4, persona5, persona6, persona7]
 }
