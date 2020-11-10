@@ -19,7 +19,7 @@
 window.addEventListener('load',onLoad);
 
 var users
-var usersFilters
+var filtrado
 
 function onLoad(){
 
@@ -27,7 +27,7 @@ function onLoad(){
   console.log(users)
 
   filterUsers();
-
+  console.log(filtrado)
 
 }
 
@@ -79,5 +79,14 @@ function createUsers (){
 }
 
 function filterUsers (){
+
+for (var i =0; i < users.leght; i++){
+  if (users [i].country == 'spain' && users [i].money > 200 ) {
+
+     filterUsers.push(filtrado)
+  }
+}
+ return filtrado
+
 
 }
