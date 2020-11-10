@@ -18,7 +18,9 @@
 
 window.addEventListener('load',onLoad);
 
+//array para los usuarios.
 var users = [];
+//array para los usuarios filtrados.
 var filtrado = [];
 
 function onLoad(){
@@ -32,7 +34,8 @@ function onLoad(){
 }
 
 function createUsers (){
-
+  
+  //Creamos los objetos persona con sus atributos
   var persona1 = new Object();
  persona1.nombre = 'Paco';
  persona1.country = 'spain';
@@ -75,11 +78,14 @@ function createUsers (){
  persona7.money = 3345;
  persona7.premiumAccount = 'false';
 
+//Rellenamos el array users con los objetos persona
  users = [persona1, persona2, persona3, persona4, persona5, persona6, persona7]
 }
 
+//funcion para filtar los usuarios del array user
 function filterUsers (){
-
+  
+// realizamos un push para rellenar la variable filtrado con el resultado que obtenemos del for each del array users con los parametros que le hemos acotado en la busqueda.
 filtrado.push(users.filter(persona => persona.country == 'spain' && persona.money > 200));
 
 }
