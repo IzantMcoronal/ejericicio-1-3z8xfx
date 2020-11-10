@@ -23,6 +23,7 @@ var users = [];
 //array para los usuarios filtrados.
 var filtrado = [];
 
+//Main
 function onLoad(){
 
   createUsers();
@@ -33,6 +34,7 @@ function onLoad(){
 
 }
 
+//Funcion que crea los objetos persona con sus atributos y los mete dentro de un array
 function createUsers (){
   
   //Creamos los objetos persona con sus atributos
