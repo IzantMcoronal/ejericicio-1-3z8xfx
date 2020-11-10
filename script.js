@@ -18,8 +18,8 @@
 
 window.addEventListener('load',onLoad);
 
-var users
-var filtrado
+var users = [];
+var filtrado = [];
 
 function onLoad(){
 
@@ -80,6 +80,6 @@ function createUsers (){
 
 function filterUsers (){
 
-users.filter(money => money.length > 200)
+filtrado.push(users.filter(persona => persona.money > 200 && persona.contry == 'spain'));
 
 }
