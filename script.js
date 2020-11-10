@@ -9,7 +9,7 @@
 
 // Este array de usuarios debe generarse en una función llamada "createUsers". Al generar el array hay que asignarlo a una variable que haya sido declarada globalmente fuera de la función.
 
-// Después de crear el array, deberéis realizar un filtrado empleando el método del objeto "Array", "filter".
+// Después de crear el array, deberéis realizar un filtrado empleando el método del objeto "Array", "filter". Puedes usar cualquier tipo de bucle, no el filter.
 // Este filtrado deberá generar otro array con los usuarios que sean de españa y que tengan más de 200 euros.
 // El filtrado se realizará desde una función llamada "filterUsers" que recibirá por parámetros la lista de usuarios y devolverá el array filtrado.
 // Las dos últimas instrucciones de la función "onLoad" deben ser dos console.log para mostrar los dos arrays.
@@ -21,10 +21,11 @@ window.addEventListener('load',onLoad);
 var users
 
 function onLoad(){
-  console.log('hi')
 
   createUsers();
   console.log(users)
+
+
 }
 
 function createUsers (){
