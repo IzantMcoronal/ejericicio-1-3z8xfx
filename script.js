@@ -75,18 +75,11 @@ function createUsers (){
  persona7.money = 3345;
  persona7.premiumAccount = 'false';
 
- users = [persona1, persona2, persona1, persona3, persona4, persona5, persona6, persona7]
+ users = [persona1, persona2, persona3, persona4, persona5, persona6, persona7]
 }
 
 function filterUsers (){
 
-filtrado=[];
-
-for (var i =0; i < users.leght; i++){
-  if ((users[i].country == 'spain') && (users[i].money > 200 )) {
-
-     filterUsers.push(filtrado)
-  }
-}
+users.filter(money => money.length > 200)
 
 }
