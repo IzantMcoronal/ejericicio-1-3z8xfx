@@ -80,6 +80,6 @@ function createUsers (){
 
 function filterUsers (){
 
-filtrado.push(users.filter(persona => persona.money > 200 && persona.contry == 'spain'));
+filtrado.push(users.filter(persona => persona.country == 'spain' && persona.money > 200));
 
 }
