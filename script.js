@@ -83,12 +83,10 @@ function filterUsers (){
 filtrado=[];
 
 for (var i =0; i < users.leght; i++){
-  if ((users [i].country == 'spain') && (users [i].money > 200 )) {
+  if ((users[i].country == 'spain') && (users[i].money > 200 )) {
 
      filterUsers.push(filtrado)
   }
 }
- return filtrado
-
 
 }
